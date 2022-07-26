@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*background-color: lightgray;*/
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: lightcyan;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    list-style-type:none ;
+     display: flex;
+     margin: 20px;
+}
+ul li a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color:mediumblue;
+}
+ul li a:hover{
+    padding:10px;
+    background-color: yellow;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    border-radius: 40px;
+}
+.write{
+    width: 40%;
+}
+main{
+    border-top: 2px solid grey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+main h1{
+    font-size: 50px;
+    color:navy;
+    text-transform: uppercase;
+}
+main h2{
+    font-size: 40px;
+    margin: 20px 0px;
+    color:darkturquoise;
+    text-transform: uppercase;
+}
+main p{
+    font-size: 20px;
+    margin: 35px 0px;
+    font-weight:600;
+    line-height: 25px;
+}
+.btnRead{
+    padding: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0px 10px;
+    border-radius: 50px;
+}
+.signbtn{
+    padding: 15px;
+    font-size: 20px;
+    background-color: black;
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0px 10px;
+    border-radius: 50px;
+}
